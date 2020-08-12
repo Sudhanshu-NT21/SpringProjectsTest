@@ -5,7 +5,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
 import com.anu.bean.College;
 
-public class CollegeTest {
+public class CollegeTest1 {
 
 	public static void main(String[] args) {
 		//  property
