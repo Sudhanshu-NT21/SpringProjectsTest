@@ -24,6 +24,7 @@ public class CollegeTest {
 		
 		college2=factory.getBean("clg1", College.class);
 		System.out.println(college1);
+		System.out.println("College 2 two details");
 		System.out.println();
 		
 		college3=factory.getBean("clg2", College.class);
