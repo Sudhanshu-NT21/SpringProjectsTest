@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="clg" class="com.anu.bean.College">
+	<property name="stuId" value="1001"/>		
+	<property name="stuName" value="Raju"/>
+	<property name="stuAddr" value="Maihar"/>	
+	</bean>
+	
+	<bean id="clg1" class="com.anu.bean.College">
+	<property name="stuId" value="1002"/>
+	<property name="stuName" value="Shyam"/>
+	<property name="stuAddr" value="Satna"/>
+	</bean>
+	
+	<bean id="clg2" class="com.anu.bean.College">
+	<property name="stuId" value="1003"/>
+	<property name="stuName" value="Ram"/>
+	<property name="stuAddr" value="Katni"/>	
+	</bean>
+</beans>
